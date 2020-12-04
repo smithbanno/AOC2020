@@ -90,5 +90,5 @@ func CheckValidity2() {
 			//fmt.Printf("Password %s does not match policy %s\n", password, policy)
 		}
 	}
-	fmt.Printf("There are %d valid passowords.", validPasswordCount)
+	fmt.Printf("There are %d valid passowords.\n", validPasswordCount)
 }
