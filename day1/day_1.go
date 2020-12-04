@@ -11,7 +11,7 @@ var target int = 2020
 
 // ReadFile reads in the .txt file with the data
 func ReadFile() []int {
-	file, err := os.Open("input.txt")
+	file, err := os.Open("day1.txt")
 
 	if err != nil {
 		fmt.Println(err)
